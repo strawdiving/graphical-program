@@ -2,6 +2,10 @@ import $ from 'jquery'
 import joint from 'jointjs'
 // import Backbone from 'backbone'
 
+if(!joint) {
+  console.log('joint')
+}
+
 let V = joint.V,
     g = joint.g;
 

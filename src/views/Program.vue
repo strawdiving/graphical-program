@@ -116,8 +116,8 @@
   // import {config} from '@/visualProgram/config/config'
   import {App} from '@/visualProgram/MainView'
   import {sendProgram} from '@/api/index'
-  import Control from '@/components/Control'
-  import Run from '@/views/RunInProgram'
+  // import Control from '@/components/Control'
+  // import Run from '@/views/RunInProgram'
   export default {
       data() {
         let validateProgramName = (rule, value, callback) => {
@@ -240,8 +240,8 @@
         },
     },
     components: {
-      Control,
-      Run
+      // Control,
+      // Run
     },
     watch: {
       app: function (val,oldVal) {

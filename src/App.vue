@@ -1,20 +1,26 @@
 <template>
-  <div>
-      <home-header user="vict"></home-header>
+  <div id="app">
+      <!-- <h1>graphical programming</h1> -->
+      <homeheader></homeheader>
+      <program/>
   </div>
 </template>
 
 <script>
-import homeHeader from '@/components/header.vue'
+import homeheader from '@/views/homeHeader'
+ import program from '@/views/Program.vue'
 export default {
-    name: 'app',
     components: {
-        homeHeader
+        program,
+        homeheader
     }
 
 }
 </script>
 
 <style>
+#app {
+    color: #f33;
+}
 
 </style>
