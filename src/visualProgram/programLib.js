@@ -800,7 +800,8 @@ joint.shapes.basic.Generic.define('basic.SVG', {
   markup: '<g class="rotatable"><g class="scalable"><image/><text/></g></g>',
 });
 
-joint.shapes.basic.SVG.define('state.Rectangle',{
+joint.shapes.basic.SVG.define('state.Rectangle'
+,{
   size: { width: 5, height: 3 },
   attrs: {
     'text': {
