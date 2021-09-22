@@ -38,7 +38,7 @@
     "css-loader": "^3.4.0",
     "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
-    "jointjs": "^2.0.1",
+    "jointjs": "^3.4.2",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "vue-loader": "^15.8.3",
